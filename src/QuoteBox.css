@@ -1,0 +1,45 @@
+.QuoteBox {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 10px;
+    border: 2px black solid;
+
+}
+
+.QuoteBox-quote {
+    margin: 10px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.QuoteBox-author {
+    text-align: right;
+    margin-right: 75px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+/* .fadeIn {
+    opacity: 0;
+    animation: slidein 1s ease-out forwards
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+} */
+       
+.QuoteBox-button {
+    margin: 20px;
+    height: 35px;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
